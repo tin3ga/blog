@@ -1,5 +1,32 @@
 baseURL: ""
 languageCode: en-us
-title: My New Hugo Site
+title: tinega gideon
 
 theme: PaperMod
+
+
+params:
+  homeInfoParams:
+    Title: Hello 👋
+    Content: 
+
+            Welcome to my blog.
+
+            - Labore culpa cupidatat deserunt Lorem cupidatat sit eiusmod.
+
+            - Duis sunt incididunt deserunt velit mollit cupidatat exercitation pariatur ullamco irure officia consequat qui cupidatat.
+
+            
+
+  socialIcons:        
+        
+        - name: dev
+          url:  https://dev.to/tinegagideon
+        - name: linkedin
+          url:  https://www.linkedin.com/in/tinegagideon
+        - name: github
+          url:  https://github.com/tin3ga
+        - name: tryhackme
+          url:  https://tryhackme.com/p/tinega
+        - name: cv
+          url: ""
