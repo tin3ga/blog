@@ -6,6 +6,10 @@ theme: PaperMod
 
 
 params:
+# blog post configuration params
+  ShowReadingTime: true
+
+# home welcome block configuration params
   homeInfoParams:
     Title: Hello 👋
     Content: 
@@ -30,17 +34,21 @@ params:
           url:  https://tryhackme.com/p/tinega
         - name: cv
           url: ""
+
+# menu nav panel
 menu:
   main:
-    - name: Categories
-      url:  /categories/
-      weight: 10
     - name: Tags
       url:  /tags/
-      weight: 20
+      weight: 50
     - name: Experience
       url:  /experience/
       weight: 30
     - name: Search
       url:  /search/
       weight: 40
+    - name: Dev
+      url: https://dev.to/tinegagideon
+
+
+
