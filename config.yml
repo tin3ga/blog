@@ -3,6 +3,7 @@ languageCode: en-us
 title: tinega gideon
 
 theme: PaperMod
+enableEmoji: true
 
 
 params:
@@ -16,9 +17,13 @@ params:
 
             Welcome to my blog.
 
-            - Labore culpa cupidatat deserunt Lorem cupidatat sit eiusmod.
+            - I'm passionate about **networking**, **cloud computing**, **linux** and **network security**.
 
-            - Duis sunt incididunt deserunt velit mollit cupidatat exercitation pariatur ullamco irure officia consequat qui cupidatat.
+            - 🎓 Computer science graduate.
+
+            - Checkout my Blog Posts here & [Dev.to](https://dev.to/tinegagideon)
+
+            - [Say hi on twitter](https://twitter.com/tinega_)
 
             
 
@@ -33,7 +38,7 @@ params:
         - name: tryhackme
           url:  https://tryhackme.com/p/tinega
         - name: cv
-          url: ""
+          url: https://drive.google.com/file/d/1fum6OZG81sYGTU23FHGoZPLoEEUvaySe/view?usp=sharing
 
 # menu nav panel
 menu:
