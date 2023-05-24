@@ -14,21 +14,13 @@ params:
   homeInfoParams:
     Title: Hello 👋
     Content: 
-
-            Welcome to my blog.
-
-            - I'm passionate about **networking**, **cloud computing**, **linux** and **network security**.
-
-            - 🎓 Computer science graduate.
-
-            - Checkout my Blog Posts here & [Dev.to](https://dev.to/tinegagideon)
-
-            - [Say hi on twitter](https://twitter.com/tinega_)
-
+          
+          I'm passionate about **networking**, **cloud computing**, **linux** and **network security**. [Checkout my Blog Posts](https://dev.to/tinegagideon). 
             
 
   socialIcons:        
-        
+        - name: twitter
+          url:  https://twitter.com/tinega_
         - name: dev
           url:  https://dev.to/tinegagideon
         - name: linkedin
