@@ -1,9 +1,9 @@
-baseURL: ""
+baseURL: "https://tinega.site"
 languageCode: en-us
 title: tinega gideon
 
 theme: PaperMod
-enableEmoji: true
+
 
 
 params:
@@ -35,6 +35,9 @@ params:
 # menu nav panel
 menu:
   main:
+    - name: Blog
+      url:  /posts/
+      weight: 40
     - name: Tags
       url:  /tags/
       weight: 50
