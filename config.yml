@@ -7,8 +7,10 @@ theme: PaperMod
 
 
 params:
-# blog post configuration params
-  ShowReadingTime: true
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  ShowReadingTime: true # blog post configuration params
+
 
 # home welcome block configuration params
   homeInfoParams:
