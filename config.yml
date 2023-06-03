@@ -54,3 +54,10 @@ menu:
 
 
 
+# search functionality
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
