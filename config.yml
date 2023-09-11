@@ -20,15 +20,13 @@ params:
           I'm passionate about **networking**, **cloud computing**, **linux** and **network security**. [Checkout my Blog Posts](https://dev.to/tinegagideon). 
             
 
-  socialIcons:        
-        - name: twitter
-          url:  https://twitter.com/tinega_
+  socialIcons: 
+        - name: github
+          url:  https://github.com/tin3ga      
         - name: dev
           url:  https://dev.to/tinegagideon
         - name: linkedin
           url:  https://www.linkedin.com/in/tinegagideon
-        - name: github
-          url:  https://github.com/tin3ga
         - name: tryhackme
           url:  https://tryhackme.com/p/tinega
         - name: cv
