@@ -1,7 +1,6 @@
 ---
 title: "Information Technology Intern"
 description: "ICT Authority DLP (Machakos)"
-date: 2023-05-25T08:40:24+03:00
 draft: false
 tags: ["Internship"]
 ShowReadingTime: false
