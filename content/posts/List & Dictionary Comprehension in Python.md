@@ -25,7 +25,7 @@ for number in numbers:
         even_numbers.append(number)
 ```
 
-Using list comprenension
+Using list comprehension
 
 ```
 even_numbers = [num for num in numbers if num % 2 == 0]
