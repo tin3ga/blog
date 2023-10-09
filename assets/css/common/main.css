@@ -38,12 +38,13 @@
 }
 
 .social-icons a svg {
-    height: 26px;
-    width: 26px;
+    height: 36px;
+    width: 36px;
 }
 
 .social-icons a svg:hover {
-    color: rosybrown;
+    color: var(--tertiary);
+    transform: scale(1.2);
 }
 
 
