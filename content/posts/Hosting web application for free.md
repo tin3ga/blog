@@ -4,6 +4,7 @@ date: 2020-07-10T10:24:39+03:00
 draft: false
 tags: ["hosting", "vue", "netlify", "web", "free"]
 weight: 120
+ShowToc: true
 ---
 
 # Introduction 

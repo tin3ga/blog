@@ -2,6 +2,7 @@
 title: "Python Script Automation in Windows"
 date: 2023-09-29T12:46:04+03:00
 tags: ["python", "automation", "windows"]
+ShowToc: true
 weight: 140
 draft: false
 ---

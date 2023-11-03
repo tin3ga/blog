@@ -4,6 +4,7 @@ date: 2023-09-23T12:11:07+03:00
 tags: ["Productivity","Motivation","Japanese philosophy"]
 weight: 130
 draft: false
+ShowToc: true
 ---
 ![japanese culture](https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 ## Ikigai (生き甲斐)

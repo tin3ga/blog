@@ -4,6 +4,7 @@ date: 2021-03-23T10:35:54+03:00
 draft: false
 tags: ["linux", "appimage", "applications"]
 weight: 110
+ShowToc: true
 ---
 
 # Introduction 

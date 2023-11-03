@@ -4,6 +4,7 @@ date: 2023-09-08T12:02:19+03:00
 tags: ["python", "list comprehension","dictionary comprehension"]
 weight: 130
 draft: false
+ShowToc: true
 ---
 
 ## List Comprehension
