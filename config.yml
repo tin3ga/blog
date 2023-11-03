@@ -1,6 +1,6 @@
 baseURL: "https://tinega.site"
 languageCode: en-us
-title: tinega gideon
+title: tinega
 
 theme: PaperMod
 
@@ -13,12 +13,15 @@ params:
 
 
 # home welcome block configuration params
-  homeInfoParams:
-    Title: Hello 👋
-    Content: 
+  profileMode:
+    enabled: true
+    title: Habari 👋  
+    subtitle: oPeN SoUrCe | aUtOmAtIoN | ClOuD CoMpUtInG | nEtWoRk_sEcUrItY
+    imageUrl: https://res.cloudinary.com/tinegadev/image/upload/v1699006103/profile-card/vwuja0ol4ooencjmf9be.gif
+    imageTitle: "profileMode image" 
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
           
-          I'm passionate about **networking**, **cloud computing**, **linux** and **network security**. [Checkout my Blog Posts](https://dev.to/tinegagideon). 
-            
 
   socialIcons: 
         - name: github
@@ -29,6 +32,8 @@ params:
           url:  https://www.linkedin.com/in/tinegagideon
         - name: tryhackme
           url:  https://tryhackme.com/p/tinega
+        - name: hackerrank
+          url:  https://www.hackerrank.com/profile/tinega
         - name: cv
           url: https://drive.google.com/file/d/1fum6OZG81sYGTU23FHGoZPLoEEUvaySe/view?usp=sharing
 
