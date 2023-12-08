@@ -137,3 +137,21 @@ print(tuple(map(int, strings)))
 # (1, 2, 3, 4, 5, 6, 7, 8)
 
 ```
+
+15. Alternative value for input statements
+
+```python
+
+username = input('Name: ') or 'N/A'
+#or
+name_input = input('Name: ')
+username = name_input if name_input else 'N/A'
+
+```
+
+16. Creating a shadow copy of a list
+
+```python
+mylist = [1,2,3,4,5]
+copy_list = mylist[:]
+```

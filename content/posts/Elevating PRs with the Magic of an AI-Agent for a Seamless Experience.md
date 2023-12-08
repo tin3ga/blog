@@ -1,7 +1,7 @@
 ---
 title: "Elevating PRs With the Magic of an AI Agent for a Seamless Experience"
 date: 2023-12-08T19:29:12+03:00
-draft: true
+draft: false
 tags: ["ai", "opensource", "git", "pr"]
 weight: 100
 ShowToc: true
