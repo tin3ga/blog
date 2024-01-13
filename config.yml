@@ -4,63 +4,58 @@ title: tinega
 
 theme: PaperMod
 
-
-
 params:
-
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   ShowReadingTime: true # blog post configuration params
 
-
-# home welcome block configuration params
+  # home welcome block configuration params
   profileMode:
     enabled: true
-    title: Habari 👋  
+    title: Habari 👋
     subtitle: oPeN SoUrCe | aUtOmAtIoN | ClOuD CoMpUtInG | nEtWoRk_sEcUrItY
     imageUrl: https://res.cloudinary.com/tinegadev/image/upload/v1699006103/profile-card/vwuja0ol4ooencjmf9be.gif
-    imageTitle: "profileMode image" 
+    imageTitle: "profileMode image"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
-          
 
-  socialIcons: 
-        - name: github
-          url:  https://github.com/tin3ga      
-        - name: dev
-          url:  https://dev.to/tinegagideon
-        - name: linkedin
-          url:  https://www.linkedin.com/in/tinegagideon
-        - name: tryhackme
-          url:  https://tryhackme.com/p/tinega
-        - name: hackerrank
-          url:  https://www.hackerrank.com/profile/tinega
-        - name: cv
-          url: https://drive.google.com/file/d/1fum6OZG81sYGTU23FHGoZPLoEEUvaySe/view?usp=sharing
+  socialIcons:
+    - name: github
+      url: https://github.com/tin3ga
+    - name: dev
+      url: https://dev.to/tinegagideon
+    - name: linkedin
+      url: https://www.linkedin.com/in/tinegagideon
+    - name: tryhackme
+      url: https://tryhackme.com/p/tinega
+    - name: hackerrank
+      url: https://www.hackerrank.com/profile/tinega
+    - name: cv
+      url: https://drive.google.com/file/d/14ze72MTg4vlv0nXSLL71sgLEM5I_iN3z/view?usp=sharing
+    - name: email
+      url: mailto:tinegagideon@outlook.com
 
 # menu nav panel
 menu:
   main:
     - name: Blog
-      url:  /posts/
+      url: /posts/
       weight: 40
     - name: Tags
-      url:  /tags/
+      url: /tags/
       weight: 50
     - name: Experience
-      url:  /experience/
+      url: /experience/
       weight: 30
     - name: Search
-      url:  /search/
+      url: /search/
       weight: 40
     - name: Dev
       url: https://dev.to/tinegagideon
 
-
-
 # search functionality
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
