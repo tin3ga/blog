@@ -27,12 +27,12 @@ params:
       url: https://www.linkedin.com/in/tinegagideon
     - name: tryhackme
       url: https://tryhackme.com/p/tinega
-    - name: hackerrank
-      url: https://www.hackerrank.com/profile/tinega
     - name: cv
-      url: https://drive.google.com/file/d/14ze72MTg4vlv0nXSLL71sgLEM5I_iN3z/view?usp=sharing
+      url: https://drive.proton.me/urls/9WCZMNYWAG#DJQaU8aXT9af
     - name: email
       url: mailto:tinegagideon@outlook.com
+    - name: keybase
+      url: https://keybase.io/tin3ga
 
 # menu nav panel
 menu:
