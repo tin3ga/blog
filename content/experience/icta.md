@@ -4,6 +4,7 @@ description: "ICT Authority DLP (Machakos)"
 draft: false
 tags: ["Internship"]
 ShowReadingTime: false
+weight: 100
 ---
 
 ## Description
