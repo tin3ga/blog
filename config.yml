@@ -25,10 +25,12 @@ params:
       url: https://dev.to/tinegagideon
     - name: linkedin
       url: https://www.linkedin.com/in/tinegagideon
+    - name: gitlab
+      url: https://gitlab.com/tin3ga
     - name: tryhackme
       url: https://tryhackme.com/p/tinega
     - name: cv
-      url: https://drive.proton.me/urls/9WCZMNYWAG#DJQaU8aXT9af
+      url: https://drive.google.com/file/d/1bGA1umbrK1BOGV34fQJifgIoEdxxBkFI/view?usp=sharing
     - name: email
       url: mailto:tinegagideon@outlook.com
     - name: keybase
