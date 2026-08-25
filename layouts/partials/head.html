@@ -15,12 +15,13 @@
   site.Title }}
 </title>
 <!-- Umami Analytics -->
+{{- if hugo.IsProduction }}
 <script
   defer
-  src="https://init.tinega.link/init.js"
-  data-host-url="https://init.tinega.link/"
+  src="/init/init.js"
   data-website-id="dc9ad80c-e966-47d9-9310-05577fd7ece0"
 ></script>
+{{- end }}
 <!-- End Umami Analytics -->
 
 {{- /* Meta */}} {{- if .IsHome }} {{ with site.Params.keywords -}}<meta
