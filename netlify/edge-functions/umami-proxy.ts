@@ -13,7 +13,9 @@ export default async function handler(
 
   // Never forward first-party cookies or a caller-supplied client IP.
   headers.delete("cookie");
-  headers.set("x-client-ip", context.ip);
+  headers.delete("x-client-ip");
+  headers.set("x-real-ip", context.ip);
+  headers.set("x-forwarded-for", context.ip);
 
   // Preserve the public filename while serving Umami's canonical tracker.
   if (incomingUrl.pathname.endsWith(".js")) {
