@@ -17,6 +17,18 @@ export default async function handler(
   headers.set("x-real-ip", context.ip);
   headers.set("x-forwarded-for", context.ip);
 
+  // Umami Cloud prioritizes these headers over the location of its own edge.
+  headers.delete("x-umami-client-country");
+  headers.delete("x-umami-client-region");
+  headers.delete("x-umami-client-city");
+  headers.set("x-umami-client-country", context.geo.country.code);
+  if (context.geo.subdivision.code) {
+    headers.set("x-umami-client-region", context.geo.subdivision.code);
+  }
+  if (context.geo.city) {
+    headers.set("x-umami-client-city", encodeURIComponent(context.geo.city));
+  }
+
   // Preserve the public filename while serving Umami's canonical tracker.
   if (incomingUrl.pathname.endsWith(".js")) {
     const upstreamResponse = await fetch(`${UMAMI_HOST}/script.js`, {
